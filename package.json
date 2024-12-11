@@ -1,0 +1,20 @@
+{
+  "name": "turbo-env-bug",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "lint": "turbo run lint --continue",
+    "lint:fix": "turbo run lint:fix --continue"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14",
+    "turbo": "^2.3.3"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "bun@1.1.38"
+}

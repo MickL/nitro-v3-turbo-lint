@@ -1,0 +1,18 @@
+{
+  "name": "nitro-lint-turbo-bug",
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "drizzle-kit": "^0.30.0",
+    "nitro": "npm:nitro-nightly@3.0.0-beta-28796231.359af68d"
+  },
+  "devDependencies": {
+    "eslint-plugin-turbo": "^2.3.3",
+    "eslint": "^9.16.0"
+  }
+}
